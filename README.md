@@ -41,4 +41,4 @@ Thie idea is simple: Simulate the login using `wget` with cookies enabled, then 
 
 This is exactly what `fitget.sh` does. It keeps the fetched data in `fitget.json` and tries to minimize the amount of requests for historical fitness data by looking at the latest entry from last fetch.
 
-In order to use the script, the email and the password of the user must be stated. This can either be specified in a file called `fitget.conf` (see `sample_fitget.conf` or directly as the script is called with `LOGIN="12a3456" PASSWORD="S3€R37" ./fitget.sh`.
+In order to use the script, the email and the password of the user must be stated. This can either be specified in a file called `fitget.conf` (see `sample_fitget.conf`) or directly as the script is called with `LOGIN="12a3456" PASSWORD="S3€R37" ./fitget.sh`.
